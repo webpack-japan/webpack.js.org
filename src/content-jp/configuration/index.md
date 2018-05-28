@@ -15,13 +15,21 @@ contributors:
 
 webpack is fed via a configuration object. It is passed in one of two ways depending on how you are using webpack: through the terminal or via Node.js. All the available configuration options are specified below.
 
+webpack は設定オブジェクトを介して供給されています。設定オブジェクトは webpack をどのように使うかによって 2 つのうちどちらかの方法 ( ターミナル経由または Node.js 経由) で渡されます。すべての利用可能な設定オプションは以下に指定する通りです。
+
 T> New to webpack? Check out our guide to some of webpack's [core concepts](/concepts) to get started!
 
+T> webpack は始めてですか？始めるために webpack の [core concepts](/concepts) のいくつかのガイドを参照してください。
+
 T> Notice that throughout the configuration we use Node's built-in [path module](https://nodejs.org/api/path.html) and prefix it with the [__dirname](https://nodejs.org/docs/latest/api/globals.html#globals_dirname) global. This prevents file path issues between operating systems and allows relative paths to work as expected. See [this section](https://nodejs.org/api/path.html#path_windows_vs_posix) for more info on POSIX vs. Windows paths.
+
+T> 設定全体を通して、Node にビルドインしている [path module](https://nodejs.org/api/path.html) を利用し、全体的に [__dirname](https://nodejs.org/docs/latest/api/globals.html#globals_dirname) を接頭辞をつけることに留意してください。これは、 OS との間のファイルパスの問題を防ぎ、相対パスを期待通りに動作させることができます。 POSIX と Windows のパスの詳細については [this section](https://nodejs.org/api/path.html#path_windows_vs_posix) を参照してください。
 
 ## Options
 
 Click on the name of each option in the configuration code below to jump to the detailed documentation. Also note that the items with arrows can be expanded to show more examples and, in some cases, more advanced configuration.
+
+下のコードで設定の各オプション名をクリックすると詳細なドキュメントにジャンプします。矢印がついている項目を展開して、より多くの例、場合によってはより高度な設定を見ることができることにも留意してください。
 
 __webpack.config.js__
 
