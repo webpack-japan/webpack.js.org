@@ -46,7 +46,7 @@ and [variables](/api/module-variables) -- that are supported.
 
 # モジュール
 
-webpackでモジュールを処理するとき、さまざまなモジュールの構文を理解することが重要です -- 具体的には[メソッド](/api/module-methods)と[変数](/api/module-variables)がサポートされています。
+webpackでモジュールを処理するとき、サポートされているさまざまなモジュールの構文を理解することが重要です -- 具体的には[メソッド](/api/module-methods)と[変数](/api/module-variables)がサポートされています。
 
 [モジュールについてもっと学ぶ!](/api/module-methods)
 
