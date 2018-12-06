@@ -7,14 +7,23 @@ contributors:
   - rouzbeh84
 ---
 
+<!--
 Here you can find **webpack** project brand guidelines, assets, and license. See our official [media repository](https://github.com/webpack/media) for more information and to find the [license](https://github.com/webpack/media/blob/master/LICENSE) that governs this work. Click any of the images to download them.
+-->
 
+ここで *webpack* プロジェクトのブランドガイドライン、アセットおよびライセンスを確認することができます。詳細については、公式の[メディアリポジトリ](https://github.com/webpack/media)を参照し、これらを管理する[ライセンス](https://github.com/webpack/media/blob/master/LICENSE)を確認してください。ダウンロードするためには画像をクリックしてください。
 
+<!--
 ## The Name
 
 webpack should **always** be written in lower-case letters, even at the beginning of a sentence.
+-->
 
+## 名称
 
+webpackはたとえ文頭であっても**常に**小文字で記述してください。
+
+<!--
 ## Logo
 
 The webpack logo should be placed on a white background with enough space around it like this:
@@ -34,8 +43,30 @@ For dark backgrounds, you can use the negative version of the logo:
 [svg](https://github.com/webpack/media/blob/master/logo/logo-on-dark-bg.svg) | [png](https://github.com/webpack/media/blob/master/logo/logo-on-dark-bg.png) | [jpg](https://github.com/webpack/media/blob/master/logo/logo-on-dark-bg.jpg)
 
 T> Please use the **icon + text** whenever possible.
+-->
 
 
+## ロゴ
+
+webpackのロゴは次のように周辺に十分なスペースをとった白背景の上に配置してください。
+
+<img src="https://raw.githubusercontent.com/webpack/media/master/logo/logo-on-white-bg.png" alt="webpack logo default with proper spacing on light background" />
+
+[svg](https://github.com/webpack/media/blob/master/logo/logo-on-white-bg.svg) | [png](https://github.com/webpack/media/blob/master/logo/logo-on-white-bg.png) | [jpg](https://github.com/webpack/media/blob/master/logo/logo-on-white-bg.jpg)
+
+ロゴの周りにどれくらいのスペースを開けるべきか判断するためには中の暗いキューブを倍にしてみてください。
+
+暗い背景の場合、次のようなロゴの反転バージョンを使いましょう。
+
+<div style="display: block; background: #111;">
+  <img src="https://raw.githubusercontent.com/webpack/media/master/logo/logo-on-dark-bg.png" alt="webpack logo default with proper spacing on light background" />
+</div>
+
+[svg](https://github.com/webpack/media/blob/master/logo/logo-on-dark-bg.svg) | [png](https://github.com/webpack/media/blob/master/logo/logo-on-dark-bg.png) | [jpg](https://github.com/webpack/media/blob/master/logo/logo-on-dark-bg.jpg)
+
+T> 可能な限り**アイコン + テキスト**を利用してください。
+
+<!--
 ## Icon only
 
 **The icon is designed to be used in layout-constrained areas. As previously stated, please prefer icon + text.**
@@ -59,11 +90,41 @@ Square-sized icon for smaller areas (like favicons):
 T> For those of you following our guidelines and have gotten this far, we've made a special smaller size image used especially for custom emoji (like in a slack or gitter channel ;))
 
 <img src="/assets/icon-square-small-slack.png" width="50" alt="icon square small example">
+-->
 
+## アイコンのみ
 
+**アイコンはレイアウトに制約があるエリアで使われるようにデザインされています。今まで述べたようにアイコン + テキストが好ましいです。**
+
+<img src="https://raw.githubusercontent.com/webpack/media/master/logo/icon.png" width="250" alt="icon example">
+
+[svg](https://github.com/webpack/media/blob/master/logo/icon.svg) | [png](https://github.com/webpack/media/blob/master/logo/icon.png) | [jpg](https://github.com/webpack/media/blob/master/logo/icon.jpg)
+
+（アバターやプロファイル画像のような）大きめのエリア用の正方形アイコン:
+
+<img src="https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png" width="250" alt="icon square big example">
+
+[svg](https://github.com/webpack/media/blob/master/logo/icon-square-big.svg) | [png](https://github.com/webpack/media/blob/master/logo/icon-square-big.png) | [jpg](https://github.com/webpack/media/blob/master/logo/icon-square-big.jpg)
+
+（faviconのような）小さなエリア用の正方形アイコン:
+
+<img src="https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-small.png" width="50" alt="icon square small example">
+
+[svg](https://github.com/webpack/media/blob/master/logo/icon-square-small.svg) | [png](https://github.com/webpack/media/blob/master/logo/icon-square-small.png) | [jpg](https://github.com/webpack/media/blob/master/logo/icon-square-small.jpg)
+
+T> ガイドラインに従いここまで来たあなた方のために、（slackやgitterチャンネル内のような）カスタムemoji用の特別な小さなサイズの画像を作りました。
+
+<img src="/assets/icon-square-small-slack.png" width="50" alt="icon square small example">
+
+<!--
 ## Font
 
 We use the beautiful [Geomanist Medium](http://atipofoundry.com/fonts/geomanist) font from the extremely talented folks at the [Atipo Foundry](http://atipofoundry.com/) who provide the entire font family at a 'pay what you want' model.
+-->
+
+## フォント
+
+私達は、とても美しい[Geomanist Medium](http://atipofoundry.com/fonts/geomanist)フォントを利用しています。このフォントファミリー全体は[Atipo Foundry](http://atipofoundry.com/)にてとても才能ある人々が'pay what you want'モデルで提供しています。
 
 
 ## Color Palette
