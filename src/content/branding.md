@@ -127,6 +127,7 @@ We use the beautiful [Geomanist Medium](http://atipofoundry.com/fonts/geomanist)
 私達は、とても美しい[Geomanist Medium](http://atipofoundry.com/fonts/geomanist)フォントを利用しています。このフォントファミリー全体は[Atipo Foundry](http://atipofoundry.com/)にてとても才能ある人々が'pay what you want'モデルで提供しています。
 
 
+<!--
 ## Color Palette
 
 The following colors are used throughout the site in various combinations and on our fancy clothing line launched with the help of [Open Collective](https://opencollective.com/) and [Threadless](https://medium.com/u/840563ee2a56) over at the [official webpack store](https://webpack.threadless.com/collections/the-final-release-collection/)!
@@ -149,8 +150,40 @@ In addition, you can grab the following file types directly from these links:
 
 [psd](https://raw.githubusercontent.com/webpack/media/master/design/webpack-palette.psd) | [png](https://raw.githubusercontent.com/webpack/media/master/design/webpack-palette.png)
  | [ai](https://raw.githubusercontent.com/webpack/media/master/design/webpack-palette.ai) | [svg](https://raw.githubusercontent.com/webpack/media/master/design/webpack-palette.svg)
+-->
 
 
+## カラーパレット
+
+次の色がサイト全体でいくつもの組み合わせで使われており、さらに [Open Collective](https://opencollective.com/) と [Threadless](https://medium.com/u/840563ee2a56) の助けにより立ち上げられた [official webpack store](https://webpack.threadless.com/collections/the-final-release-collection/) のオシャレな服のラインナップにも使われています。
+
+| Color Name    | HEX Code      | RGB Code              | Sample
+|---------------|---------------|-----------------------|-------------------------------
+| Malibu:       | HEX `#8dd6f9` | `rgb: 141, 214, 249`  | <div style="background-color: #8dd6f9;">&nbsp;</div>
+| Denim:        | HEX `#1d78c1` | `rgb: 29, 120, 193`   | <div style="background-color: #1d78c1;">&nbsp;</div>
+| Fiord:        | HEX `#465E69` | `rgb: 70, 94, 105`    | <div style="background-color: #465E69;">&nbsp;</div>
+| Outer Space:  | HEX `#2B3A42` | `rgb: 43, 58, 66`     | <div style="background-color: #2B3A42;">&nbsp;</div>
+| White:        | HEX `#ffffff` | `rgb: 255, 255, 255`  | <div style="background-color: #ffffff;">&nbsp;</div>
+| Concrete:     | HEX `#f2f2f2` | `rgb: 242, 242, 242`  | <div style="background-color: #f2f2f2;">&nbsp;</div>
+| Alto:         | HEX `#dedede` | `rgb: 222, 222, 222`  | <div style="background-color: #dedede;">&nbsp;</div>
+| Dusty Gray:   | HEX `#999999` | `rgb: 153, 153, 153`  | <div style="background-color: #999999;">&nbsp;</div>
+| Dove Gray:    | HEX `#666666` | `rgb: 102, 102, 102`  | <div style="background-color: #666666;">&nbsp;</div>
+| Emperor:      | HEX `#535353` | `rgb: 83, 83, 83`     | <div style="background-color: #535353;">&nbsp;</div>
+| Mine Shaft:   | HEX `#333333` | `rgb: 51, 51, 51`     | <div style="background-color: #333333;">&nbsp;</div>
+
+
+さらに、これらのリンクから直接次のファイルの種類をダウンロードできます。
+
+[psd](https://raw.githubusercontent.com/webpack/media/master/design/webpack-palette.psd) | [png](https://raw.githubusercontent.com/webpack/media/master/design/webpack-palette.png)
+ | [ai](https://raw.githubusercontent.com/webpack/media/master/design/webpack-palette.ai) | [svg](https://raw.githubusercontent.com/webpack/media/master/design/webpack-palette.svg)
+
+
+<!--
 ## License
 
 The logo and the brand name are **not MIT licensed**. Please check [our LICENSE](https://github.com/webpack/media/blob/master/LICENSE) for usage guidelines.
+-->
+
+## ライセンス
+
+ロゴとブランド名は **MIT ライセンスではありません**。利用ガイドラインについては [私たちのライセンス](https://github.com/webpack/media/blob/master/LICENSE) を確認してください。
