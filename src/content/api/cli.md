@@ -19,13 +19,22 @@ related:
     url: https://medium.com/@nimgrg/analysing-and-minimising-the-size-of-client-side-bundle-with-webpack-and-source-map-explorer-41096559beca#.c3t2srr8x
 ---
 
+<!--
 For proper usage and easy distribution of this configuration, webpack can be configured with `webpack.config.js`. Any parameters sent to the CLI will map to a corresponding parameter in the config file.
 
 Have a look at the [installation guide](/guides/installation) if you don't already have webpack installed.
 
 T> The new CLI for webpack is under development. New features are being added such as the `--init` flag. [Check it out!](https://github.com/webpack/webpack-cli)
+-->
+
+適切な使い方かつ設定の簡単な配布のために、webpackは`webpack.config.js`で設定することができます。CLIに送られた任意のパラメーター設定ファイル内の対応するパラメーターにマップされます。
+
+もしwebpackをインストールしていないのであれば、[インストールガイド](/guides/installation)を見てください。
+
+T> webpack用の新しいCLIが開発中です。`--init`フラグのような新しい機能が追加されました。[見てみる!](https://github.com/webpack/webpack-cli)
 
 
+<!--
 ## Usage with config file
 
 ```sh
@@ -33,8 +42,17 @@ webpack [--config webpack.config.js]
 ```
 
 See [configuration](/configuration) for the options in the configuration file.
+-->
 
+## 設定ファイルでの使い方
 
+```sh
+webpack [--config webpack.config.js]
+```
+
+設定ファイルのオプションについては[設定](/configuration)を参照してください。
+
+<!--
 ## Usage without config file
 
 ```sh
@@ -91,6 +109,21 @@ This will form the bundle with both the files as separate entry points.
 	[0] ./src/index2.js 54 bytes {1} [built]
 	[1] ./src/others.js 29 bytes {0} {1} [built]
 ```
+-->
+
+## 設定ファイルなしでの使い方
+
+```sh
+webpack <entry> [<entry>] -o <output>
+```
+
+**`<entry>`**
+
+ファイル名またはプロジェクトを構築するためのエントリポイントとして機能する名前つきのfilenameのセット。複数のエントリーを渡すことができます（すべてのエントリーはスタートアップ時にロードされます）。`<name>=<request>`の形式でペアを渡すと、追加のエントリーポイントを作成できます。それは`entry`の設定オプションにマップされます。
+
+**`<output>`**
+
+
 
 
 ### Common Options
